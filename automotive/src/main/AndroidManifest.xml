@@ -19,6 +19,11 @@
 
             android:name=".MainActivity"
             android:exported="true">
+            
+            <meta-data
+                android:name="distractionOptimized"
+                android:value="true" />
+            
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
